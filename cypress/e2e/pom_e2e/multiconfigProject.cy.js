@@ -12,6 +12,7 @@ describe('multiconfigProject', () => {
             .clickMultiConfigTypeOfProjectBtn()
             .clickOKButton();
 
+            
         homePage.clickDashboardBreadcrumbsLink()
             .getProjectNameLink()
             .should('be.visible')
